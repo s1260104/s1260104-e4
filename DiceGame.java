@@ -21,7 +21,7 @@ public class DiceGame {
 	    System.out.println("Die " + (i+1) + ": " + dis);
 	}
 	System.out.println("Total value: " + total);
-	if(total > 7) System.out.println("You won");
-	else System.out.println("You lost");
+	if(total > 7) System.out.println(str + " won!");
+	else System.out.println(str + " lost!");
     }
 }
